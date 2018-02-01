@@ -1,22 +1,8 @@
+@import url("public/css/font-mfizz.css");
+
 .container {
     max-width: 800px;
   }
-/*
-@media (max-width: 960px) {
-  .container {
-    width: 650px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 600px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 500px;
-  }
-}*/
 
 .profile-pic{
   width: 200px;
@@ -24,6 +10,15 @@
 
 .medium-thumbnail {
   width: 150px;
+}
+
+.languages{
+  display: flex;
+  justify-content: space-around;
+}
+
+.languages i {
+  font-size: 50px;
 }
 
 body{
