@@ -3,121 +3,145 @@
 <head>
   <meta charset="UTF-8">
   <title>Profile page</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="public/style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Lato:300,400" rel="stylesheet">
   <link rel="stylesheet" href="public/css/font-mfizz.css">
+  <link rel="stylesheet" href="/static/fontawesome/css/fontawesome-all.css" >
 
 </head>
 <body>
+  <div id="sidebar">
+    <a href="#profile">
+      <i class="fas fa-info-circle">
+      </i>
+    </a>
+    <a href="#social">
+      <i class="fas fa-share-square">
+      </i>
+    </a>
+    <a href="#languages">
+      <i class="fas fa-globe">
+      </i>
+    </a>
+    <a href="#movies">
+      <i class="fas fa-lightbulb">
+      </i>
+    </a>
+  </div>
 
-  <div class="container">
+  <div id="page-content">
 
-    <div class="card profile">
+    <div class="container">
 
-      <div>
-        <img class="profile-pic round" src="images/profile.jpg" alt="Henrik Dittmar">
+      <div class="card profile" id="profile">
+
+        <div>
+          <img class="profile-pic round" src="images/profile.jpg" alt="Henrik Dittmar">
+        </div>
+
+        <h1>Henrik Dittmar</h1>
+
+        <h2>Full Stack Developer</h2>
+
+        <p id="description">Originally from Braunschweig, Germany. Recent graduate of a 4-year Mechanical Engineering Degree at Imperial College London. Hobbies are Field Hockey and Electronic Music. Interested in
+        Product Design and Development with Digital and Mechanical aspects.</p>
+
+
       </div>
 
-      <h1>Henrik Dittmar</h1>
-
-      <h2>Full Stack Developer</h2>
-
-      <p id="description">Originally from Braunschweig, Germany. Recent graduate of a 4-year Mechanical Engineering Degree at Imperial College London. Hobbies are Field Hockey and Electronic Music. Interested in
-      Product Design and Development with Digital and Mechanical aspects.</p>
 
 
-    </div>
+      <div class="card social" id="social">
+        <ul class="list-inline">
+          <li class="text-center">
+            <a href="https://www.facebook.com/henrik.dittmar" target="_blank" class="social-button">
+              <i class="fab fa-facebook-square"></i>
 
-
-
-    <div class="card social">
-      <ul class="list-inline">
-        <li class="text-center">
-          <a href="https://www.facebook.com/henrik.dittmar" target="_blank" class="social-button">
-            <i class="fa fa-facebook-square social-link" aria-hidden="true">
-            </i>
-            <br>
-            Facebook
-          </a>
-        </li>
-        <li class="text-center">
-          <a href="https://www.linkedin.com/in/henrik-dittmar-aa64ab126" target="_blank" class="social-button">
-            <i class="fa fa-linkedin-square social-link" aria-hidden="true">
-            </i>
-            <br>
-            LinkedIN
-          </a>
-        </li>
-        <li class="text-center">
-          <a href="https://github.com/hennididi" target="_blank" class="social-button">
-            <i class="fa fa-github-square social-link" aria-hidden="true"></i>
-            <br>
-            Github
-          </a>
-        </li>
-      </ul>
-    </div>
-
-
-    <div class="card languages">
-      <i class="icon-ruby"></i>
-      <i class="icon-ruby-on-rails"></i>
-      <i class="icon-html5"></i>
-      <i class="icon-css3"></i>
-      <i class="icon-javascript"></i>
-      <i class="icon-postgres"></i>
-    </div>
-
-
-    <div class="card movies">
-      <h3>
-        My favourite movies
-      </h3>
-      <table>
-        <tbody>
-          <tr>
-            <td>
-              <img class="medium-thumbnail" src="images/slevin.jpg" alt="Lucky Number Slevin">
-            </td>
-            <td>
-              <h5>Lucky Number Slevin</h5>
-              <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td><img class="medium-thumbnail" src="images/ice-age.jpg" alt="Ice Age">
-            </td>
-            <td>
-              <h5>Ice Age</h5>
-              <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p></td>
-            </tr>
-            <tr>
-              <td>
-                <img class="medium-thumbnail" src="images/fight.jpg" alt="Fight Club">
-              </td>
-              <td>
-                <h5>Fight Club</h5>
-                <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img class="medium-thumbnail" src="images/catch-me.jpg" alt="Catch Me If You Can">
-              </td>
-              <td>
-                <h5>Catch Me If You Can</h5>
-                <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+              </i>
+              <br>
+              Facebook
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="https://www.linkedin.com/in/henrik-dittmar-aa64ab126" target="_blank" class="social-button">
+              <i class="fab fa-linkedin social-link" aria-hidden="true">
+              </i>
+              <br>
+              LinkedIN
+            </a>
+          </li>
+          <li class="text-center">
+            <a href="https://github.com/hennididi" target="_blank" class="social-button">
+              <i class="fab fa-github-square social-link" aria-hidden="true"></i>
+              <br>
+              Github
+            </a>
+          </li>
+        </ul>
       </div>
 
-      <div class="card">
-       <h3>About this page</h3>
-       <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
+
+      <div class="card languages" id="languages">
+        <i class="icon-ruby"></i>
+        <i class="icon-ruby-on-rails"></i>
+        <i class="icon-html5"></i>
+        <i class="icon-css3"></i>
+        <i class="icon-javascript"></i>
+        <i class="icon-postgres"></i>
+      </div>
+
+
+      <div class="card movies" id="movies">
+        <h3>
+          My favourite movies
+        </h3>
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img class="medium-thumbnail" src="images/slevin.jpg" alt="Lucky Number Slevin">
+              </td>
+              <td>
+                <h5>Lucky Number Slevin</h5>
+                <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td><img class="medium-thumbnail" src="images/ice-age.jpg" alt="Ice Age">
+              </td>
+              <td>
+                <h5>Ice Age</h5>
+                <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p></td>
+              </tr>
+              <tr>
+                <td>
+                  <img class="medium-thumbnail" src="images/fight.jpg" alt="Fight Club">
+                </td>
+                <td>
+                  <h5>Fight Club</h5>
+                  <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img class="medium-thumbnail" src="images/catch-me.jpg" alt="Catch Me If You Can">
+                </td>
+                <td>
+                  <h5>Catch Me If You Can</h5>
+                  <p>A case of mistaken identity lands Slevin into the middle of a war being plotted by two of the city's most rival crime bosses: The Rabbi and The Boss. Slevin is under constant surveillance by relentless Detective Brikowski as well as the infamous assassin Goodkat and finds himself having to hatch his own ingenious plot to get them before they get him.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card">
+         <h3>About this page</h3>
+         <p>This page has been coded during the FullStack program @LeWagon. That was probably the best experience of my entire life.</p>
+       </div>
+
      </div>
+
 
    </div>
  </body>

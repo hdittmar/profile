@@ -4,8 +4,29 @@
     max-width: 800px;
   }
 
+  #sidebar {
+  position: fixed;
+  width: 80px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #E6E6E6;
+}
+
+#sidebar a i{
+  display: block;
+  font-size: 50px;
+  color: #4C4C4C;
+  margin: 50px 0px;
+}
+
+
+#page-content {
+  margin-left: 80px;
+}
+
 .profile-pic{
-  width: 200px;
+  width: 180px;
 }
 
 .medium-thumbnail {
@@ -19,6 +40,10 @@
 
 .languages i {
   font-size: 50px;
+}
+
+a{
+  text-decoration: none;
 }
 
 body{
@@ -63,12 +88,17 @@ ul li a:action{
 }
 
 
-ul li a .fa{
+ul li a .fab{
   font-size: 50px;
 }
 
+.social i{
+  height: 50px;
+
+}
+
 .social{
-      height: 100px;
+  height: 100px;
 }
 
 .text-center{
